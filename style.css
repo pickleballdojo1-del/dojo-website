@@ -516,3 +516,35 @@ footer a {
   text-underline-offset: 3px;
 }
 footer a:hover { color: var(--court-green); }
+
+/* ============================================================
+   Pinned resource callout (e.g. "Start Here" on Blog page)
+   ============================================================ */
+.pinned-resource {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--optic);
+  padding: 1.4rem 1.6rem;
+}
+.pinned-resource .label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 0.3rem;
+}
+.pinned-resource h3 { font-size: 1.05rem; font-weight: 700; font-family: var(--body); }
+.pinned-resource .cta-link {
+  color: var(--court-green);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.pinned-resource .cta-link:hover { text-decoration: underline; }
