@@ -548,3 +548,14 @@ footer a:hover { color: var(--court-green); }
   white-space: nowrap;
 }
 .pinned-resource .cta-link:hover { text-decoration: underline; }
+
+/* ============================================================
+   Inline links within prose (e.g. venue name in the services intro)
+   ============================================================ */
+.inline-link {
+  color: var(--court-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+.inline-link:hover { color: var(--optic); }
