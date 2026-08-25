@@ -457,3 +457,62 @@ footer {
   color: var(--ink-soft);
   border-top: 1px solid var(--line);
 }
+
+/* ============================================================
+   Sessions list (About page)
+   ============================================================ */
+.sessions { border-top: 1px solid var(--line); margin-top: 0.5rem; }
+.session-row {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 1.2rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.session-row .when {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.session-row .what { font-size: 0.95rem; }
+.session-row .what b { font-weight: 600; }
+@media (max-width: 640px) {
+  .session-row { grid-template-columns: 1fr; gap: 0.3rem; }
+}
+
+/* ============================================================
+   Blog post cards
+   ============================================================ */
+.post-date {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.card .read-more {
+  color: var(--court-green);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+.card .read-more:hover { text-decoration: underline; }
+
+/* ============================================================
+   Footer (multi-row, with quiet secondary link)
+   ============================================================ */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+footer a {
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+footer a:hover { color: var(--court-green); }
