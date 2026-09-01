@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pickleballdojo1-del.github.io/dojo-website/sitemap.xml
