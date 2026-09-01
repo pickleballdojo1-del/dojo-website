@@ -559,3 +559,29 @@ footer a:hover { color: var(--court-green); }
   font-weight: 600;
 }
 .inline-link:hover { color: var(--optic); }
+
+/* ============================================================
+   Gear discounts list (Pricing page)
+   ============================================================ */
+.discounts { border-top: 1px solid var(--line); margin-top: 0.5rem; }
+.discount-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.discount-row .offer { font-size: 0.95rem; }
+.discount-row .offer b { font-weight: 700; }
+.discount-row .code {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--line-strong);
+  padding: 0.35rem 0.7rem;
+  color: var(--court-green);
+  white-space: nowrap;
+}
