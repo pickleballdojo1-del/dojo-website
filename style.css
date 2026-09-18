@@ -540,6 +540,7 @@ footer a:hover { color: var(--court-green); }
   margin-bottom: 0.3rem;
 }
 .pinned-resource h3 { font-size: 1.05rem; font-weight: 700; font-family: var(--body); }
+.pinned-resource p { font-size: 0.9rem; color: var(--ink-soft); margin-top: 0.4rem; max-width: 46ch; }
 .pinned-resource .cta-link {
   color: var(--court-green);
   font-weight: 600;
